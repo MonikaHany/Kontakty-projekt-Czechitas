@@ -46,15 +46,16 @@ img {
 		width: 46%;
 	}
 }
-/* 
+
 @media (min-width: 960px) {
     .tym {
 		display: flex;
-		}
+		flex-wrap: wrap; 
+		justify-content: center;
+}
 
 	.osoba {
 		display: flex;
-		flex-wrap: wrap; 
-		width: 50%;
+		width: 20%;
 	}
-} */
+}
