@@ -17,10 +17,19 @@ h1 {
 	text-align: center;
 }
 
-.foto {
+.osoba {
+	max-width: 100%;
+	border-radius: 15px;
+	border: 1px solid grey;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	}
+
+.images {
 	max-width: 100%;
 	border-radius: 50%;
-	}
+}
 
 @media (min-width: 540px) {
     .osoba {
@@ -28,8 +37,8 @@ h1 {
 		flex-wrap: wrap; 
 	}
 	.foto {
-		display: flex;
-		width: 50%;
+		/* display: flex;
+		width: 50%; */
 	}
 }
 
