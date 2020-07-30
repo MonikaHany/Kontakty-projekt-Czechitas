@@ -32,30 +32,29 @@ img {
 }
 
 .foto {
-	margin: 10px;
+	margin: 1%;
 }
 
 @media (min-width: 540px) {
-    .osoba {
+    .tym {
 		display: flex;
 		flex-wrap: wrap; 
-	}
-	.foto {
-		/* display: flex;
-		width: 50%; */
+		flex-direction: row;
+}
+	.osoba {
+		display: flex;
+		width: 46%;
 	}
 }
-
+/* 
 @media (min-width: 960px) {
-	.foto {
-       
-    }
-}
+    .tym {
+		display: flex;
+		}
 
-
-/* @media (min-width: 600px) {
-    .kontejner {
-        display: flex;
-        justify-content: space-around;
-    }
+	.osoba {
+		display: flex;
+		flex-wrap: wrap; 
+		width: 50%;
+	}
 } */
