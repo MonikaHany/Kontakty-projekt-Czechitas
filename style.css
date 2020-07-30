@@ -29,12 +29,8 @@ h1 {
 img {
 	max-width: 100%;
 	border-radius: 50%;
+	margin: 2%;
 }
-
-.foto {
-	margin: 1%;
-}
-
 @media (min-width: 540px) {
     .tym {
 		display: flex;
