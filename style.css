@@ -9,5 +9,40 @@ body {
 
 /* ---------------------------------------------------- */
 
+h1 {
+	text-align: center;
+}
+
+.tym {
+	text-align: center;
+}
+
+.foto {
+	max-width: 100%;
+	border-radius: 50%;
+	}
+
+@media (min-width: 540px) {
+    .osoba {
+		display: flex;
+		flex-wrap: wrap; 
+	}
+	.foto {
+		display: flex;
+		width: 50%;
+	}
+}
+
+@media (min-width: 960px) {
+	.foto {
+       
+    }
+}
 
 
+/* @media (min-width: 600px) {
+    .kontejner {
+        display: flex;
+        justify-content: space-around;
+    }
+} */
